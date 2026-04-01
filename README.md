@@ -1,12 +1,9 @@
 # Laporan Praktikum Kecerdasan Buatan - Pertemuan 3
 
-## Logika Fuzzy Metode Mamdani
+### PRAKTIKUM ACARA 3
 
-### PRAKTIKUM
-
-- **Materi Praktikum:** Logika Fuzzy Dua
-- **Metode:** Mamdani
-- **Tujuan:** Menyelesaikan Studi Kasus Menggunakan Logika Fuzzy
+- **Nama:** Izaz Falih
+- **NIM:** H1D024034
 
 ---
 

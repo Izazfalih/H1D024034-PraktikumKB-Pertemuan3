@@ -29,9 +29,10 @@ Studi kasus ini bertujuan untuk mengoptimalkan persediaan stok makanan hewan pel
   - Permintaan: 255 unit
   - Harga Per Item: 25.000 rupiah
   - Profit: 3.500.000 rupiah
-- **Hasil Akhir Stok Makanan:** 8 unit
 
-![Visualisasi Hasil Kasus 1](Visualisasi Grafik/Output%20Stok%20Makanan.png)
+- **Hasil Akhir Stok Makanan:** 831 unit
+
+![Visualisasi Hasil Kasus 1](Visualiasasi%20Grafik/Output%20Stok%20Makanan.png)
 
 **Penjelasan Grafik:**
 Grafik di atas menunjukkan fungsi keanggotaan untuk variabel output **Stok Makanan** yang terdiri dari kategori 'sedang' dan 'banyak'. Nilai output sistem fuzzy sebesar 8.31. Karena menggunakan skala 0–10, maka setelah dikonversi ke skala asli (0–1000), diperoleh nilai sebesar **831 unit**, yang termasuk kategori stok banyak. Hasil ini merepresentasikan nilai tegas (crisp) dari stok makanan yang harus disediakan berdasarkan kombinasi input barang terjual, permintaan, harga, dan profit yang telah dimasukkan.
@@ -63,7 +64,7 @@ Studi kasus ini bertujuan untuk menentukan tingkat kepuasan layanan pengaduan ma
 - **Hasil Analisis:**
   Pada pengujian Kasus Dua dengan nilai input tersebut tidak ada aturan dari tiga belas aturan di modul yang terpenuhi. Hal ini terjadi karena nilai Kejelasan Persyaratan dan Kemampuan Petugas berada pada kategori Tidak Memuaskan, sedangkan Aturan Sepuluh sampai Tiga Belas mewajibkan kategori minimal Cukup Memuaskan untuk input tersebut agar dapat menghasilkan output.
 
-![Himpunan Fuzzy Output Kasus 2](Visualisasi Grafik/Kepuasan.png)
+![Himpunan Fuzzy Output Kasus 2](Visualiasasi%20Grafik/Output%20Kepuasan.png)
 
 **Penjelasan Grafik:**
 Grafik di atas menampilkan himpunan fuzzy untuk variabel output **Kepuasan Pelayanan** dengan lima kategori: 'tidak memuaskan', 'kurang memuaskan', 'cukup memuaskan', 'memuaskan', dan 'sangat memuaskan'. Berbeda dengan Kasus 1, pada grafik ini tidak muncul garis hasil perhitungan (defuzzifikasi). Hal ini dikarenakan tidak adanya aturan (_rules_) yang terpenuhi oleh kombinasi nilai input yang diuji, sehingga sistem tidak dapat mengagregasi output ke dalam nilai akhir yang spesifik.
